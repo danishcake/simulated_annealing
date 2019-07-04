@@ -1,0 +1,23 @@
+{
+  "name": "simulated-annealing",
+  "version": "1.0.0",
+  "description": "Room allocation via simulated annealing",
+  "main": "src/index/ts",
+  "author": "Edward Woolhouse",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.134",
+    "@types/random": "^2.1.0",
+    "@types/uuid": "^3.4.4",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "random": "^2.1.1",
+    "uuid": "^3.3.2"
+  }
+}

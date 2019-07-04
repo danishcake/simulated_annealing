@@ -1,0 +1,22 @@
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "max-line-length": {
+        "options": [160]
+    },
+    "class-name": false,
+    "interface-name": false,
+    "variable-name": {
+      "options": [
+        "allow-snake-case"
+      ]
+    },
+    "no-console": false,
+    "quotemark": {
+      "options": "single"
+    },
+    "trailing-comma": false,
+    "array-type": false,
+    "callable-types": false
+  }
+}
